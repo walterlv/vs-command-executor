@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CommandExecutor..de479592-cef6-4558-923a-31897800634c" Version="1.0" Language="zh-CN" Publisher="walterlv" />
+    <DisplayName>Visual Studio Command Executor</DisplayName>
+    <Description xml:space="preserve">This is a very convenient add-on to execute command under your solution directories. You can use it for your git source control, your project dependency swiching, or any other ideas in your mind.</Description>
+    <License>LICENSE</License>
+    <Icon />
+    <PreviewImage />
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ToolboxControl" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>
