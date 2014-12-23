@@ -1,7 +1,7 @@
 Visual Studio Command Executor
 =====
 
-| [English](Home) | [简体中文](Home.zh-CN) | [繁體中文](Home.zh-TW) | [日本語](Home.ja-JP)
+| [English](https://github.com/walterlv/vs-command-executor/wiki/Home) | [简体中文](https://github.com/walterlv/vs-command-executor/wiki/Home.zh-CN) | [繁體中文](https://github.com/walterlv/vs-command-executor/wiki/Home.zh-TW) | [日本語](https://github.com/walterlv/vs-command-executor/wiki/Home.ja-JP)
 |-----|-----|-----|-----|
 
 This is a very convenient add-on to execute command under your solution directories. You can use it for your git source control, your project dependency swiching, or any other ideas in your mind.
