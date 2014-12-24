@@ -19,6 +19,13 @@ This is a Visual Studio Extensibility. Before you start, you should download:
 [Visual Studio Community 2013 with Update 4]:http://go.microsoft.com/?linkid=9863608
 [Visual Studio SDK]:http://go.microsoft.com/?linkid=9832352
 
+After you run the Visual Studio, follow these steps:
+> 1. Right click the `CommandExecutor` project, select `properties`;
+> 1. In the `CommandExecutor` tab, select `DEBUG` tab;
+> 1. In the `Start Action` section, select `Start external program`;
+> 1. Paste `C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe` in your textbox beside the `Start external program` label;
+> 1. Paste `/rootsuffix Exp` in your textbox beside the `Command line arguments` label.
+
 -----
 
 ## Contributors
